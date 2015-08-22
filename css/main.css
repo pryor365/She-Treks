@@ -18,9 +18,9 @@
         /* IE7-8 doesn't have border-radius, so don't indent the padding */
  
         margin-bottom: 0;
-        -webkit-border-radius: 3px;
-        -moz-border-radius: 3px;
-        border-radius: 3px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
         -webkit-transition: width  0.2s ease-in-out;
     -moz-transition:width  0.2s ease-in-out;
     -o-transition: width  0.2s ease-in-out;
@@ -46,7 +46,7 @@
         z-index: 3;   
     }   
     .search-query:focus{
-        width: 260px;
+        width: 100%;
     }   
 
 
@@ -179,8 +179,28 @@ Image credits: unsplash.com
 }
 
 
+/********************************/
+/*        Teal Theme            */
+/********************************/
 
+footer{
+  background-color: #00cccd;
+  color: #eeeef0;
+}
 
+nav {
+  background-color: #00cccd !important;
+  color: #eeeef0 !important;
+}
+
+.col-md-4 .top-five{
+/*list-style-image: ;*/
+}
+
+.blueline {
+  background-color: #028096;
+  height: 5px;
+}
 
 
 
