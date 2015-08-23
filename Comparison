@@ -71,16 +71,90 @@
       <div class="row">
         <div class="col-md-2"></div>
         <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <div class="blueline"></div>
+          <h2>New Delhi</h2>
+           <h3>Crime Rates - 2014</h3>
+          <table>
+            <tr><td>Assault on women</td><td>4322</td></tr>
+            <tr><td>Attempted rape</td><td>70</td></tr>
+            <tr><td>Rape</td><td>2096</td></tr>
+          </table>
+          </table>
         </div>
         <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <div class="blueline"></div>
+          <h2>Jaipur</h2>
+          <h3>Crime Rates - 2014</h3>
+          <table>
+            <tr><td>Assault on women</td><td>5999</td></tr>
+            <tr><td>Attempted rape</td><td>373</td></tr>
+            <tr><td>Rape</td><td>3759</td></tr>
+          </table>
        </div>
         <div class="col-md-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-4">
+          <div class="blueline"></div>
+          <h2>New Delhi</h2>
+          
+          <h3>Group Travel</h3>
+          <p>Travelling in a group is <strong>highly recommended</strong></p>
+          
+        </div>
+        <div class="col-md-4">
+          <div class="blueline"></div>
+          <h2>Jaipur</h2>
+          <h3>Group Travel</h3>
+          <p>Travelling in a group is <strong>highly recommended</strong></p>
+       </div>
+        <div class="col-md-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-4">
+          <div class="blueline"></div>
+          <h2>New Delhi</h2>
+          <h3>Best time to travel</h3>
+          <p>October to March</p>
+          
+        </div>
+        <div class="col-md-4">
+          <div class="blueline"></div>
+          <h2>Jaipur</h2>
+          <h3>Best time to travel</h3>
+          <p>October to March</p>
+          
+       </div>
+        <div class="col-md-2"></div>
+      </div>
+
+
+
+       <div class="container-fluid">
+        <div class="row">
+          <div class="col=md-4">
+            <div class="blueline"></div>
+            <form role="form">
+              <div class="form-group">
+              <h4>Was this information helpful?</h4>
+              <label class="radio-inline" for="yes-helpful"><input type="radio" name="yes-helpful">Yes</label>
+              <label class="radio-inline" for="no-helpful"><input type="radio" name="no-helpful">No</label>
+              <label class="radio-inline" for="some-helpful"><input type="radio" name="some-helpful">Somewhat</label>
+            </div>
+            <div class="form-group">
+              <h4>Your comment:</h4>
+              <textarea class="form-control" rows="3" id="comment"></textarea>
+            </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+
+          </div>
+          <div class="col=md-4"></div>
+          <div class="col=md-4"></div>
+
+        </div>
       </div>
 
       <hr>
