@@ -38,13 +38,22 @@
           </button>
           <a class="navbar-brand" href="index.html">She Treks</a>
         </div>
-        <div>
-          <ul class="nav navbar-nav">
-            <li><a href="About.html">About</a></li>
-            <li><a href="Search.html">Search</a></li>
-          </ul>
+        <!--div>
+          <form class="navbar-form" role="form">
+            <input type="text" class="type-ahead" autocomplete="off" spellcheck="false">
+            <a href="Jaipur.html"><button class="btn btn-primary">Search</button></a>
+          </form>
+        </div-->
+        <div class="col-sm-3 col-md-3 pull-right">
+        <form class="navbar-form" role="search">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search">
+            <div class="input-group-btn">
+                <a href="Jaipur.html" class="btn btn-default" role="button"><i class="glyphicon glyphicon-search"></i></a>
+            </div>
         </div>
-         
+        </form>
+        </div>
         <!--div id="navbar" class="navbar-collapse collapse">
           <form class="navbar-form navbar-right" role="form">
             <div class="form-group">
@@ -63,7 +72,8 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     
       <div class="container-fluid">
-        <h1>New Delhi</h1>
+        <div><h1>New Delhi  <a href="Profile.html" class="btn btn-success pull-right" role="button">Save to profile</a></h1>
+       </div>
         <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
   <!-- Overlay -->
   <div class="overlay"></div>
