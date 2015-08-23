@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>She Treks</title>
+        <title>Search - She Treks</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -22,8 +22,6 @@
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-
-        
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -40,15 +38,11 @@
           </button>
           <a class="navbar-brand" href="index.html">She Treks</a>
         </div>
-        <div class="col-sm-3 col-md-3">
-        <form class="navbar-form" role="search">
-        <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search">
-            <div class="input-group-btn">
-                <a href="New-Delhi.html" class="btn btn-default" role="button"><i class="glyphicon glyphicon-search"></i></a>
-            </div>
-        </div>
-        </form>
+        <div>
+          <ul class="nav navbar-nav">
+            <li><a href="About.html">About</a></li>
+            <li><a href="Search.html">Search</a></li>
+          </ul>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <form class="navbar-form navbar-right" role="form">
@@ -58,7 +52,7 @@
             <div class="form-group">
               <input type="password" placeholder="Password" class="form-control">
             </div>
-            <a href="Profile.html" class="btn btn-default" role="button">Sign in</a>
+            <button type="submit" class="btn btn-success">Sign in</button>
           </form>
         </div><!--/.navbar-collapse -->
       </div>
@@ -67,52 +61,40 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
-  <!-- Overlay -->
-  <div class="overlay"></div>
+        <h1>Search</h1>
+        <p>Where are thinking of travelling to?</p>
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <form id="search-form">
+                
+                    <input type="search" class="search-query mac-style" placeholder="Search">
+                    <button type="submit" class="btn"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+               
+            </form>
+        </div>
+        <div class="col-md-4"></div>
+      </div>
+    </div>
 
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
-    <li data-target="#bs-carousel" data-slide-to="1"></li>
-    <li data-target="#bs-carousel" data-slide-to="2"></li>
-  </ol>
-  
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item slides active">
-      <div class="slide-1-jaipur"></div>
-      <div class="hero">
-        <hgroup>
-            <h1>She Treks</h1>        
-            <h3>Safe travel for her</h3>
-        </hgroup>
-        
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
       </div>
-    </div>
-    <div class="item slides">
-      <div class="slide-2-new-delhi"></div>
-      <div class="hero">        
-        <hgroup>
-            <h1>She Treks</h1>        
-            <h3>Safe travel for her</h3>
-        </hgroup>       
-        
-      </div>
-    </div>
-    <div class="item slides">
-      <div class="slide-3-jaipur"></div>
-      <div class="hero">        
-        <hgroup>
-            <h1>She Treks</h1>        
-            <h3>Safe travel for her</h3>
-        </hgroup>
-      </div>
-    </div>
-  </div> 
-      </div>
-      </div>
-    </div>
 
       <hr>
 
